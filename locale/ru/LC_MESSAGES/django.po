@@ -13863,7 +13863,7 @@ msgstr "Работает!  Перед вами образец главной с�
 #. untranslated. See https://open.edx.org for more information.
 #: lms/templates/index_overlay.html
 msgid "It works! Powered by Open edX{registered_trademark}"
-msgstr "Работает! На основе Open edx {registered_trademark}"
+msgstr "Работает! На основе Open edX{registered_trademark}"
 
 #: lms/templates/invalid_email_key.html
 msgid "Invalid email change key"
