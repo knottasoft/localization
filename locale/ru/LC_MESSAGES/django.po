@@ -13858,6 +13858,13 @@ msgstr "Добро пожаловать на платформу Open edX{registe
 msgid "It works! This is the default homepage for this Open edX instance."
 msgstr "Работает!  Перед вами образец главной страницы Open edX."
 
+#. Added by Orekhov
+#. Translators: 'Open edX' is a registered trademark, please keep this
+#. untranslated. See https://open.edx.org for more information.
+#: lms/templates/index_overlay.html
+msgid "It works! Powered by Open edX{registered_trademark}"
+msgstr "Работает! На основе Open edx {registered_trademark}"
+
 #: lms/templates/invalid_email_key.html
 msgid "Invalid email change key"
 msgstr "Недействительный ключ для изменения электронной почты"
