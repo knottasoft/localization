@@ -375,7 +375,7 @@ msgstr "Ожидание"
 
 #: cms/templates/admin/base_site.html lms/templates/admin/base_site.html
 msgid "Django site admin"
-msgstr ""
+msgstr "Администратор сайта Django"
 
 #: cms/templates/admin/base_site.html lms/templates/admin/base_site.html
 msgid "Django administration"
@@ -20049,9 +20049,10 @@ msgstr ""
 msgid "View Gradebook"
 msgstr "Просмотр оценок"
 
+#. Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View a specific learner's enrollment status"
-msgstr ""
+msgstr "Посмотреть конкретный статус регистрации учащихся"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Learner's {platform_name} email address or username *"
@@ -20061,9 +20062,10 @@ msgstr ""
 msgid "Learner email address or username"
 msgstr "Электронная почта или имя пользователя"
 
+#. Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View Enrollment Status"
-msgstr ""
+msgstr "Посмотреть статус регистрации"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View a specific learner's grades and progress"
@@ -20122,22 +20124,27 @@ msgstr ""
 "вы нажмёте «Перепроверить, только если оценка повысится», то оценка "
 "учащегося изменится, только если она улучшится в пользу ученика."
 
+#. Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Score Override"
-msgstr ""
+msgstr "Перезапись оценки"
 
+#. Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "For the specified problem, override the learner's score."
-msgstr ""
+msgstr "Для специфичных задач перезапишите оценки учащихся"
 
+#. Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid ""
 "New score for problem, out of the total points available for the problem"
 msgstr ""
+"Новая оценка для задачи, из общей суммы баллов доступных для задачи"
 
+#. Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Override Learner's Score"
-msgstr ""
+msgstr "Перезаписать оценку учащемуся"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Problem History"
@@ -24615,7 +24622,7 @@ msgstr "Дата выпуска сертификатов"
 
 #: cms/templates/settings.html
 msgid "By default, 48 hours after course end date"
-msgstr ""
+msgstr "По умолчанию 48 часов после окончания курса"
 
 #: cms/templates/settings.html
 msgid "Enrollment Start Date"
@@ -24735,13 +24742,15 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Course About Sidebar HTML"
-msgstr ""
+msgstr "Панель О курсе HTML"
 
 #: cms/templates/settings.html
 msgid ""
 "Custom sidebar content for {a_link_start}your course summary "
 "page{a_link_end} (formatted in HTML)"
 msgstr ""
+"Настраиваемая панель данных для {a_link_start}вашего курса в общем "
+"page{a_link_end} (formatted in HTML)"
 
 #: cms/templates/settings.html
 msgid "Course Card Image"
@@ -26676,3 +26685,29 @@ msgid ""
 "A new revision was created: Merge between Revision #%(r1)d and Revision "
 "#%(r2)d"
 msgstr "Создана новая версия: слияние версий #%(r1)d и #%(r2)d"
+
+#. Added by Kasimov
+#: lms/templates/preview_menu.html
+msgid "View in Studio"
+msgstr "Посмотреть в Студии"
+
+#. Added by Kasimov
+#: lms/templates/courseware/dates.html
+msgid "Important Dates"
+msgstr "Важные даты"
+
+#. Added by Kasimov
+#: openedx/features/course_search/templates/course_search/course-search-fragment.html
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#. Added by Kasimov
+#: lms/static/js/edxnotes/views/tabs/search_results.js
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#. Added by Kasimov
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html
+msgid "Choose the graded subsection:"
+msgstr "Выберите градуированный подраздел:"
