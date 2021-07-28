@@ -10001,8 +10001,12 @@ msgid "Enabled"
 msgstr "Включено"
 
 #: cms/templates/js/course-highlights-enable.underscore
+msgid "Course Highlight Emails"
+msgstr "Электронные письма с информацией о курсе"
+
+#: cms/templates/js/course-highlights-enable.underscore
 msgid "Enable Now"
-msgstr ""
+msgstr "Разрешить"
 
 #: cms/templates/js/course-instructor-details.underscore
 msgid "Instructor Name"
