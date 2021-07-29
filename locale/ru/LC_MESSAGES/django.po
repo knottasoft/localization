@@ -21545,10 +21545,6 @@ msgstr "Сегодня {date}"
 msgid "Latest Update"
 msgstr ""
 
-#: openedx/features/course_search/templates/course_search/course-search-fragment.html
-msgid "Search Results"
-msgstr "Результаты поиска"
-
 #: openedx/features/journals/templates/journals/bundle_about.html
 msgid "Purchase the Bundle ("
 msgstr ""
@@ -26699,6 +26695,7 @@ msgstr "Важные даты"
 # Added by Kasimov
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
+#: openedx/features/course_search/templates/course_search/course-search-fragment.html
 msgid "Search Results"
 msgstr "Результаты поиска"
 
