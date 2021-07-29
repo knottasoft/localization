@@ -7373,10 +7373,12 @@ msgstr ""
 msgid "Editing post"
 msgstr ""
 
+#. Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Add a clear and descriptive title to encourage participation. (Required)"
 msgstr ""
+"Добавьте четкое и описательное название для поощрения участия. (Обязательное)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Edit your post below."
@@ -7476,9 +7478,10 @@ msgstr ""
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
 msgstr ""
 
+#. Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Post"
-msgstr ""
+msgstr "Добавить тему"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Visible to"
@@ -7494,13 +7497,15 @@ msgstr ""
 msgid "All Groups"
 msgstr ""
 
+#. Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "follow this post"
-msgstr ""
+msgstr "следить за темой"
 
+#. Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously"
-msgstr ""
+msgstr "отправить анонимно"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously to classmates"
@@ -7521,11 +7526,12 @@ msgstr ""
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Topic area"
-msgstr ""
+msgstr "Категория"
 
+#. Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add your post to a relevant topic to help others find it. (Required)"
-msgstr ""
+msgstr "Добавьте своей теме наиболее подходящую категорию для того чтобы её могли найти другие. (Обязательно)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "(Community TA)"
@@ -7552,23 +7558,29 @@ msgstr ""
 msgid "Load more"
 msgstr ""
 
+#. Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Post type"
-msgstr ""
+msgstr "Тип темы"
 
+#. Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
 "conversations. (Required)"
 msgstr ""
+"Вопрос требует получения ответов. Предложение используется для того чтобы "
+"поделиться и обсудить идею. (Обязательное)"
 
+#. Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
-msgstr ""
+msgstr "Вопрос"
 
+#. Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Discussion"
-msgstr ""
+msgstr "Предложение"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Endorse"
