@@ -26686,28 +26686,23 @@ msgid ""
 "#%(r2)d"
 msgstr "Создана новая версия: слияние версий #%(r1)d и #%(r2)d"
 
-#. Added by Kasimov
+# Added by Kasimov
 #: lms/templates/preview_menu.html
 msgid "View in Studio"
 msgstr "Посмотреть в Студии"
 
-#. Added by Kasimov
+# Added by Kasimov
 #: lms/templates/courseware/dates.html
 msgid "Important Dates"
 msgstr "Важные даты"
 
-#. Added by Kasimov
-#: openedx/features/course_search/templates/course_search/course-search-fragment.html
-msgid "Search Results"
-msgstr "Результаты поиска"
-
-#. Added by Kasimov
+# Added by Kasimov
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Search Results"
 msgstr "Результаты поиска"
 
-#. Added by Kasimov
+# Added by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "Choose the graded subsection:"
 msgstr "Выберите градуированный подраздел:"
