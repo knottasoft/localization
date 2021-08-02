@@ -1113,9 +1113,9 @@ msgid ""
 "wrong, please <a href=\"{support_url}\">contact support</a> to resolve this "
 "issue."
 msgstr ""
-"этот, данный{html_start}Не удалось активировать вашу учётную "
-"запись{html_end}Что-то пошло не так, пожалуйста, <a "
-"href=\"{support_url}\">обратитесь в службу поддержки</a>для решения этой "
+"{html_start}Не удалось активировать вашу учётную запись{html_end}"
+"Что-то пошло не так, пожалуйста, <a href=\"{support_url}\">"
+"обратитесь в службу поддержки</a>для решения этой "
 "проблемы."
 
 #: common/djangoapps/student/views/management.py
