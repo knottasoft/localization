@@ -487,7 +487,7 @@ msgstr "Ответить на пояснение"
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (graded, results hidden)"
 msgid_plural "{num_points} points possible (graded, results hidden)"
-msgstr[0] ""
+msgstr[0] "{num_points} очков возможно (оцениваемый, результат скрыт)"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -497,7 +497,7 @@ msgstr[3] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
-msgstr[0] ""
+msgstr[0] "{num_points} очков возможно (без оценки, результат скрыт)"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -507,7 +507,7 @@ msgstr[3] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (graded)"
 msgid_plural "{num_points} points possible (graded)"
-msgstr[0] ""
+msgstr[0] "{num_points} очков возможно (оцениваемый)"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -517,7 +517,7 @@ msgstr[3] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
-msgstr[0] ""
+msgstr[0] "{num_points} очков возможно (без оценки)"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -529,7 +529,7 @@ msgstr[3] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] ""
+msgstr[0] "{earned}/{possible} очков (оцениваемый)"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -541,7 +541,7 @@ msgstr[3] ""
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] ""
+msgstr[0] "{earned}/{possible} очков (без оценки)"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -2539,41 +2539,50 @@ msgstr[1] "%d года"
 msgstr[2] "%d лет"
 msgstr[3] "%d лет"
 
+# Translate by Kasimov
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx
 msgid "Select a section or problem"
-msgstr ""
+msgstr "Выберите раздел или задачу"
 
+# Translate by Kasimov
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx
 msgid "Create a report of problem responses"
-msgstr ""
+msgstr "Создать отчет по ответам"
 
+# Translate by Kasimov
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
 msgid "Your report is being generated..."
-msgstr ""
+msgstr "Ваш отчет создается..."
 
+# Translate by Kasimov
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
 msgid "Your report has been successfully generated."
-msgstr ""
+msgstr "Ваш отчет успешно сгенерирован."
 
+# Translate by Kasimov
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx
 msgid "View Report"
-msgstr ""
+msgstr "Просмотреть отчет"
 
+# Translate by Kasimov
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
 msgid "There was an error generating the report link."
-msgstr ""
+msgstr "Ошибка генерации отчета по ссылке"
 
+# Translate by Kasimov
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
 msgid "There was an error generating your report."
-msgstr ""
+msgstr "Ошибка генерации отчета по ссылке"
 
+# Translate by Kasimov
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
 msgid "Unable to get report generation status."
-msgstr ""
+msgstr "Невозможно получить статус отчета"
 
+# Translate by Kasimov
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js
 msgid "Unable to submit request to generate report."
-msgstr ""
+msgstr "Невозможно отправить запрос на создание отчета"
 
 #: lms/djangoapps/support/static/support/js/views/certificates.js
 msgid "An unexpected error occurred.  Please try again."
@@ -3029,9 +3038,10 @@ msgstr "Командная нумерация страниц"
 msgid "Topics"
 msgstr "Темы"
 
+# Translated by Kasimov
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "My Teams"
-msgstr ""
+msgstr "Мои команды"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
@@ -3103,18 +3113,24 @@ msgstr "Отображение результатов для «{searchString}»"
 msgid "Search teams"
 msgstr "Поиск команд"
 
+# Translated by Kasimov
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic. Join an open public team to collaborate with other learners who "
 "are interested in the same topic as you are."
 msgstr ""
+"Все ваши команды и публичные команды в вашем курсе по темам."
+"Присоединитесь к открытой команды для взаимодействия с другими учащимися, которые интересуются этой же "
+"темой что и вы."
 
+# Translated by Kasimov
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic."
 msgstr ""
+"Все ваши команды и публичные команды в вашем курсе по темам."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "See all teams you belong to."
@@ -7373,7 +7389,7 @@ msgstr ""
 msgid "Editing post"
 msgstr ""
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Add a clear and descriptive title to encourage participation. (Required)"
@@ -7478,7 +7494,7 @@ msgstr ""
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
 msgstr ""
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a Post"
 msgstr "Добавить тему"
@@ -7497,12 +7513,12 @@ msgstr ""
 msgid "All Groups"
 msgstr ""
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "follow this post"
 msgstr "следить за темой"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "post anonymously"
 msgstr "отправить анонимно"
@@ -7528,7 +7544,7 @@ msgstr ""
 msgid "Topic area"
 msgstr "Категория"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add your post to a relevant topic to help others find it. (Required)"
 msgstr "Добавьте своей теме наиболее подходящую категорию для того чтобы её могли найти другие. (Обязательно)"
@@ -7558,12 +7574,12 @@ msgstr ""
 msgid "Load more"
 msgstr ""
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Post type"
 msgstr "Тип темы"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
@@ -7572,12 +7588,12 @@ msgstr ""
 "Вопрос требует получения ответов. Предложение используется для того чтобы "
 "поделиться и обсудить идею. (Обязательное)"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Question"
 msgstr "Вопрос"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Discussion"
 msgstr "Предложение"

@@ -3980,33 +3980,37 @@ msgstr "Общее"
 msgid "{assignment_type} = {weighted_percent:.2%} of a possible {weight:.2%}"
 msgstr "{assignment_type} = {weighted_percent:.2%} из {weight:.2%} возможных"
 
+# Translated by Kasimov
 #: common/lib/xmodule/xmodule/graders.py
 msgid "Generated"
-msgstr ""
+msgstr "Сгенерировано"
 
 #. Translators: "Homework 1 - Unreleased - 0% (?/?)" The section has not been
 #. released for viewing.
 #: common/lib/xmodule/xmodule/graders.py
 #, python-brace-format
 msgid "{section_type} {index} Unreleased - 0% (?/?)"
-msgstr ""
+msgstr "{section_type} {index} Незакончено - 0% (?/?)"
 
+# Translated by Kasimov
 #: common/lib/xmodule/xmodule/graders.py
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
-msgstr ""
+msgstr "Значение менее {drop_count} {section_type} очков не учитывается."
 
+# Translated by Kasimov
 #. Translators: "Homework Average = 0%"
 #: common/lib/xmodule/xmodule/graders.py
 #, python-brace-format
 msgid "{section_type} Average = {percent:.0%}"
-msgstr ""
+msgstr "{section_type} В среднем = {percent:.0%}"
 
+# Translated by Kasimov
 #. Translators: Avg is short for Average
 #: common/lib/xmodule/xmodule/graders.py
 #, python-brace-format
 msgid "{short_label} Avg"
-msgstr ""
+msgstr "{short_label} Срд"
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "Text"
@@ -4570,16 +4574,21 @@ msgstr ""
 "Введите \"true\" или \"false\". Если введено \"true\", все HTML5-видео будут"
 " кэшироваться."
 
+# Translated by Kasimov
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enable video auto-advance"
-msgstr ""
+msgstr "Включить автоматические продолжение в видео"
 
+# Translated by Kasimov
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Specify whether to show an auto-advance button in videos. If the student "
 "clicks it, when the last video in a unit finishes it will automatically move"
 " to the next unit and autoplay the first video."
 msgstr ""
+"Показывать ли кнопку продолжения в видео. Если студент на неё нажмет "
+"в последнем видео в разделе , то раздел автоматически закончится и"
+" перейдет к следующему видео в следующем разделе."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Video Pre-Roll"
@@ -14487,9 +14496,10 @@ msgstr ""
 "Вы вновь активировали уведомления с форума {platform_name}. Вы можете "
 "{dashboard_link_start}вернуться к панели управления{link_end}."
 
+# Translate by Kasimov
 #: lms/templates/seq_module.html
 msgid "Important!"
-msgstr ""
+msgstr "Важно!"
 
 #: lms/templates/seq_module.html
 msgid "Previous"
@@ -18832,17 +18842,23 @@ msgstr ""
 msgid "Generate Survey Results Report"
 msgstr "Создать отчёт о результатах опроса"
 
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "Select a problem to generate a CSV file that lists all student answers to "
 "the problem. You also select a section or chapter to include results of all "
 "problems in that section or chapter."
 msgstr ""
+"Выберите задачу для генерации CSV файла со списокм всех студентов кто её решил. "
+"Вы также можете выбрать раздел или часть для включения результатов всех "
+"задач в них."
 
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "NOTE"
-msgstr ""
+msgstr "ПРИМЕЧАНИЕ"
 
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "The generated report is limited to {max_entries} responses. If you expect "
@@ -18850,6 +18866,10 @@ msgid ""
 "by-chapter, or problem-by-problem basis, or contact your site administrator "
 "to increase the limit."
 msgstr ""
+"Генерируемый отчет ограничен {max_entries} запросами. Если вам необходимо "
+"более {max_entries} , попробуйте запросить отчет по части или разделу "
+", или свяжитесь с вашим системным администратором для увеличения размера. "
+
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download a CSV of problem responses"
@@ -20045,24 +20065,26 @@ msgstr ""
 "Обратите внимание: эта функция доступна только для курсов с небольшим "
 "количеством слушателей."
 
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View Gradebook"
-msgstr "Просмотр оценок"
+msgstr "Просмотр журнала успеваемости"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View a specific learner's enrollment status"
 msgstr "Посмотреть конкретный статус регистрации учащихся"
 
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Learner's {platform_name} email address or username *"
-msgstr ""
+msgstr "Введите емейл или имя пользователя студента {platform_name} "
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Learner email address or username"
 msgstr "Электронная почта или имя пользователя"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View Enrollment Status"
 msgstr "Посмотреть статус регистрации"
@@ -20124,24 +20146,24 @@ msgstr ""
 "вы нажмёте «Перепроверить, только если оценка повысится», то оценка "
 "учащегося изменится, только если она улучшится в пользу ученика."
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Score Override"
 msgstr "Перезапись оценки"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "For the specified problem, override the learner's score."
 msgstr "Для специфичных задач перезапишите оценки учащихся"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid ""
 "New score for problem, out of the total points available for the problem"
 msgstr ""
 "Новая оценка для задачи, из общей суммы баллов доступных для задачи"
 
-#. Translate by Kasimov
+# Translate by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Override Learner's Score"
 msgstr "Перезаписать оценку учащемуся"
@@ -26686,28 +26708,102 @@ msgid ""
 "#%(r2)d"
 msgstr "Создана новая версия: слияние версий #%(r1)d и #%(r2)d"
 
-#. Added by Kasimov
+# Added by Kasimov
 #: lms/templates/preview_menu.html
 msgid "View in Studio"
 msgstr "Посмотреть в Студии"
 
-#. Added by Kasimov
+# Added by Kasimov
 #: lms/templates/courseware/dates.html
 msgid "Important Dates"
 msgstr "Важные даты"
 
-#. Added by Kasimov
+# Added by Kasimov
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html
 msgid "Search Results"
 msgstr "Результаты поиска"
 
-#. Added by Kasimov
+# Added by Kasimov
 #: lms/static/js/edxnotes/views/tabs/search_results.js
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
 msgid "Search Results"
 msgstr "Результаты поиска"
 
-#. Added by Kasimov
+# Added by Kasimov
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "Choose the graded subsection:"
 msgstr "Выберите градуированный подраздел:"
+
+# Added by Kasimov
+#: lms/templates/courseware/progress.html
+msgid "Course Progress for '{username}' ({email})"
+msgstr "Прогресс по курсу для '{username}' ({email})"
+
+# Added by Kasimov
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html
+msgid ""
+"In this section, you have the ability to grant extensions on specific "
+"subsections to individual students. Please note that the latest date is "
+"always taken; you cannot use this tool to make an assignment due earlier for"
+" a particular student."
+msgstr ""
+"В этом разделе у вас есть возможность продлить сроки для градуированного подраздела"
+" индивидуально для конкретного пользователя. Обратите внимание, что всегда берется самая поздняя дата;"
+" вы не можете использовать этот инструмент для более раннего выполнения задания"
+" для определенного учащегося."
+
+# Added by Kasimov
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html
+msgid "Reason for extension"
+msgstr "Причина продления"
+
+# Added by Kasimov
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html
+msgid ""
+"Here you can see what extensions have been granted on particular subsection "
+"or for a particular student."
+msgstr ""
+"Здесь вы можете увидеть продления сроков для конкретных подразделов или для конкретных студентов."
+
+# Added by Kasimov
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html
+msgid ""
+"Choose a graded subsection and click the button to obtain a list of all "
+"students who have extensions for the given subsection."
+msgstr ""
+"Выберете градуированный подраздел и нажмите кнопку для просмотра списка "
+"учащихся, кто получил продление сроков для данного подраздела."
+
+# Added by Kasimov
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html
+msgid ""
+"Resetting a problem's due date rescinds a due date extension for a student "
+"on a particular subsection. This will revert the due date for the student "
+"back to the problem's original due date."
+msgstr ""
+"Сброс срока выполнения задачи отменяет продление срока выполнения для учащегося "
+" в определенном подразделе. Это вернет срок сдачи учащегося обратно"
+" на исходный срок выполнения задачи."
+
+# Added by Kasimov
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid ""
+"Click to generate a ZIP file that contains all submission texts and "
+"attachments."
+msgstr ""
+"Нажмите для генерации ZIP архива со всеми отправленными файлами и вложениями"
+
+# Added by Kasimov
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid "Generate Submission Files Archive"
+msgstr "Сгенерировать файл архива с отправлениями"
+
+# Added by Kasimov
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+#: lms/templates/instructor/instructor_dashboard_2/data_download_2.html
+msgid ""
+"The reports listed below are available for download, identified by UTC date "
+"and time of generation."
+msgstr ""
+"Перечисленные ниже оценочные листы и списки доступны для скачивания, "
+"отличить иx можно по дате и времени создания по UTC."
