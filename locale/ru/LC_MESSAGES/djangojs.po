@@ -187,7 +187,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2020-11-22 20:43+0000\n"
-"PO-Revision-Date: 2021-09-13 23:30+0300\n"
+"PO-Revision-Date: 2021-09-14 23:26+0300\n"
 "Last-Translator: Weyedide <weyedide@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/open-edx/edx-platform/language/ru/)\n"
 "Language: ru\n"
@@ -2567,6 +2567,9 @@ msgid ""
 "questions, grading or the proper procedures in each course. Please post all course related questions within the Discussion Forum "
 "where the Course Staff can directly respond."
 msgstr ""
+"Хотя наша служба поддержки рада помочь с платформой edX, сотрудники курса обладают достаточным опытом для решения конкретных "
+"вопросов по заданиям, выставлению оценок или надлежащим процедурам в каждом курсе. Пожалуйста, размещайте все вопросы, связанные "
+"с курсом, на Дискуссионном форуме, где сотрудники курса смогут ответить на них напрямую."
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx
 msgid "Details"
@@ -2758,7 +2761,7 @@ msgstr "Удалить этого участника?"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "This learner will be removed from the team,allowing another learner to take the available spot."
-msgstr ""
+msgstr "Этот ученик будет исключен из команды, что позволит другому ученику занять освободившееся место."
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
 msgid "Delete this team?"
@@ -2805,7 +2808,7 @@ msgstr "Произошла ошибка.  Попробуйте ещё раз."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "No assignments for team"
-msgstr ""
+msgstr "Нет заданий для команды"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
@@ -2813,7 +2816,7 @@ msgstr "Выйти из состава команды?"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "If you leave, you can no longer post in this team's discussions.Your place will be available to another learner."
-msgstr ""
+msgstr "Если вы уйдете, вы больше не сможете участвовать в обсуждениях этой команды. Ваше место будет доступно другому ученику."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js lms/static/js/verify_student/views/reverify_view.js
 #: lms/templates/verify_student/review_photos_step.underscore
@@ -2830,7 +2833,7 @@ msgstr "Набор в эту команду закрыт."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "Cannot join instructor managed team"
-msgstr ""
+msgstr "Невозможно присоединиться к команде, управляемой инструктором"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_utils.js
 msgid " Member"
@@ -3407,7 +3410,7 @@ msgstr ""
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "Return to my dashboard"
-msgstr ""
+msgstr "Вернуться к моей панели"
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "Finish later"
