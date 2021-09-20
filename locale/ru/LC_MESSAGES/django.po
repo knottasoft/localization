@@ -6483,7 +6483,9 @@ msgstr "Вы зачислена на %(course_name)s"
 msgid "\n"
 "                    You have been invited to be a beta tester for %(course_name)s at %(site_name)s\n"
 "                "
-msgstr "Вы приглашены как бета тестер в %(course_name)s на  %(site_name)s"
+msgstr "\n"
+"                    Вы приглашены как бета тестер в %(course_name)s на  %(site_name)s\n"
+"                "
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "The invitation has been sent by a member of the course staff."
@@ -6628,7 +6630,9 @@ msgstr "Уважаемый слушатель,"
 msgid "\n"
 "                    You have been unenrolled from %(course_name)s\n"
 "                "
-msgstr "Вы были исключены из %(course_name)s"
+msgstr "\n"
+"                    Вы были исключены из %(course_name)s\n"
+"                "
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt
