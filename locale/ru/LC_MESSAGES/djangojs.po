@@ -5090,7 +5090,7 @@ msgstr "(Только для чтения)"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Re-run Course"
-msgstr "Повторный курс"
+msgstr "Перезапуск курса"
 
 #: cms/templates/js/show-textbook.underscore
 msgid "View Live"
