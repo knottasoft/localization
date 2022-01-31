@@ -12258,9 +12258,9 @@ msgid ""
 "access the courses available to you through {enterprise_name}, {link_start}"
 "visit the {enterprise_name} dashboard{link_end}."
 msgstr ""
-"У вас есть доступ к панели {bold_start}{enterprise_name}{bold_end} dashboard. To "
-"Чтобы получить доступ к курсам, доступным вам через {enterprise_name}, {link_start}"
-"посетите панель управления {enterprise_name} dashboard{link_end}."
+"У вас есть доступ к панели управления {bold_start}{enterprise_name}{bold_end}."
+"Чтобы получить доступ к курсам, доступным вам через {enterprise_name},"
+"посетите {link_start} панель управления {enterprise_name} {link_end}."
 
 #: openedx/features/enterprise_support/api.py
 #, python-brace-format
