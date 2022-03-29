@@ -6,11 +6,12 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: en\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.0.1\n"
 
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
@@ -331,6 +332,7 @@ msgid "%(count)d student account was unlocked."
 msgid_plural "%(count)d student accounts were unlocked."
 msgstr[0] "%(count)d счет студента был разблокирован."
 msgstr[1] "%(count)d счета студента были разблокированы."
+msgstr[2] ""
 
 #: common/djangoapps/student/admin.py
 #, python-brace-format
@@ -1252,7 +1254,7 @@ msgstr "февраля"
 #: common/djangoapps/util/date_utils.py
 msgctxt "month name"
 msgid "March"
-msgstr "марта"
+msgstr "Марта"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "April 10, 2014". It is used for the %B directive in
@@ -1333,6 +1335,7 @@ msgid_plural ""
 "The file must end with one of the following extensions: '{file_types}'."
 msgstr[0] "Файл должен иметь расширение '{file_types}'."
 msgstr[1] "Файл должен иметь одно из следующих расширений: '{file_types}'."
+msgstr[2] ""
 
 #: common/djangoapps/util/file.py
 #, python-brace-format
@@ -1373,6 +1376,7 @@ msgid "at least %(min_length)d character"
 msgid_plural "at least %(min_length)d characters"
 msgstr[0] "не менее %(min_length)d символов"
 msgstr[1] "не менее %(min_length)d символов"
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1388,6 +1392,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Этот пароль слишком длинный. Он должен содержать не более %(max_length)d "
 "символов."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1396,6 +1401,7 @@ msgid_plural ""
 "Your password must contain no more than %(max_length)d characters."
 msgstr[0] "Ваш пароль должен содержать не более %(max_length)d символов."
 msgstr[1] "Ваш пароль должен содержать не более %(max_length)d символов."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1403,6 +1409,7 @@ msgid "This password must contain at least %(min_alphabetic)d letter."
 msgid_plural "This password must contain at least %(min_alphabetic)d letters."
 msgstr[0] "Этот пароль должен содержать не менее %(min_alphabetic)d букв."
 msgstr[1] "Этот пароль должен содержать не менее %(min_alphabetic)d букв."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1410,6 +1417,7 @@ msgid "Your password must contain at least %(min_alphabetic)d letter."
 msgid_plural "Your password must contain at least %(min_alphabetic)d letters."
 msgstr[0] "Ваш пароль должен содержать не менее %(min_alphabetic)d букв."
 msgstr[1] "Ваш пароль должен содержать не менее %(min_alphabetic)d букв."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1417,6 +1425,7 @@ msgid "%(num)d letter"
 msgid_plural "%(num)d letters"
 msgstr[0] "%(num)d буква"
 msgstr[1] "%(num)d буквы"
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1424,6 +1433,7 @@ msgid "This password must contain at least %(min_numeric)d number."
 msgid_plural "This password must contain at least %(min_numeric)d numbers."
 msgstr[0] "Этот пароль должен содержать не менее %(min_numeric)d числа."
 msgstr[1] "Этот пароль должен содержать не менее %(min_numeric)d чисел."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1431,6 +1441,7 @@ msgid "Your password must contain at least %(min_numeric)d number."
 msgid_plural "Your password must contain at least %(min_numeric)d numbers."
 msgstr[0] "Ваш пароль должен содержать не менее %(min_numeric)d числа."
 msgstr[1] "Ваш пароль должен содержать не менее %(min_numeric)d чисел."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1438,6 +1449,7 @@ msgid "%(num)d number"
 msgid_plural "%(num)d numbers"
 msgstr[0] "%(num)d число"
 msgstr[1] "%(num)d числа"
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1446,6 +1458,7 @@ msgid_plural ""
 "This password must contain at least %(min_upper)d uppercase letters."
 msgstr[0] "Этот пароль должен содержать не менее %(min_upper)d заглавной буквы."
 msgstr[1] "Этот пароль должен содержать не менее %(min_upper)d заглавных букв."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1454,6 +1467,7 @@ msgid_plural ""
 "Your password must contain at least %(min_upper)d uppercase letters."
 msgstr[0] "Ваш пароль должен содержать не менее %(min_upper)d заглавной буквы."
 msgstr[1] "Ваш  пароль должен содержать не менее %(min_upper)d заглавных букв."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1461,6 +1475,7 @@ msgid "%(num)d uppercase letter"
 msgid_plural "%(num)d uppercase letters"
 msgstr[0] "%(num)d заглавная буква"
 msgstr[1] "%(num)d заглавных букв"
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1469,6 +1484,7 @@ msgid_plural ""
 "This password must contain at least %(min_lower)d lowercase letters."
 msgstr[0] "Этот пароль должен содержать не менее %(min_lower)d строчной буквы."
 msgstr[1] "Этот пароль должен содержать не менее %(min_lower)d строчных букв."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1477,6 +1493,7 @@ msgid_plural ""
 "Your password must contain at least %(min_lower)d lowercase letters."
 msgstr[0] "Ваш пароль должен содержать не менее %(min_lower)d строчной буквы."
 msgstr[1] "Ваш пароль должен содержать не менее %(min_lower)d строчных букв."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1484,6 +1501,7 @@ msgid "%(num)d lowercase letter"
 msgid_plural "%(num)d lowercase letters"
 msgstr[0] "%(num)d строчная буква"
 msgstr[1] "%(num)d строчных букв"
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1495,6 +1513,7 @@ msgstr[0] ""
 "Этот пароль должен содержать не менее %(min_punctuation)d знака препинания."
 msgstr[1] ""
 "Этот пароль должен содержать не менее %(min_punctuation)d знаков препинания."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1506,6 +1525,7 @@ msgstr[0] ""
 "Ваш пароль должен содержать не менее %(min_punctuation)d знака препинания."
 msgstr[1] ""
 "Ваш пароль должен содержать не менее %(min_punctuation)d знаков препинания."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1513,6 +1533,7 @@ msgid "%(num)d punctuation mark"
 msgid_plural "%(num)d punctuation marks"
 msgstr[0] "%(num)d знака препинания"
 msgstr[1] "%(num)d знаков препинания"
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1520,6 +1541,7 @@ msgid "This password must contain at least %(min_symbol)d symbol."
 msgid_plural "This password must contain at least %(min_symbol)d symbols."
 msgstr[0] "Этот пароль должен содержать не менее %(min_symbol)d спецсимвола."
 msgstr[1] "Этот пароль должен содержать не менее %(min_symbol)d спецсимволов."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1527,6 +1549,7 @@ msgid "Your password must contain at least %(min_symbol)d symbol."
 msgid_plural "Your password must contain at least %(min_symbol)d symbols."
 msgstr[0] "Ваш пароль должен содержать не менее %(min_symbol)d спецсимвола."
 msgstr[1] "Ваш пароль должен содержать не менее %(min_symbol)d спецсимволов."
+msgstr[2] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1534,6 +1557,7 @@ msgid "%(num)d symbol"
 msgid_plural "%(num)d symbols"
 msgstr[0] "%(num)d спецсимвол"
 msgstr[1] "%(num)d спецсимвола"
+msgstr[2] ""
 
 #: common/djangoapps/xblock_django/admin.py
 msgid ""
@@ -2403,6 +2427,7 @@ msgid "Incorrect ({progress} point)"
 msgid_plural "Incorrect ({progress} points)"
 msgstr[0] "Неверно ({progress} балл)"
 msgstr[1] "Неверно ({progress} балла)"
+msgstr[2] ""
 
 #: common/lib/xmodule/xmodule/capa_module.py
 #, python-brace-format
@@ -2410,6 +2435,7 @@ msgid "Correct ({progress} point)"
 msgid_plural "Correct ({progress} points)"
 msgstr[0] "Верно ({progress} балл)"
 msgstr[1] "Верно ({progress} балла)"
+msgstr[2] ""
 
 #: common/lib/xmodule/xmodule/capa_module.py
 #, python-brace-format
@@ -2417,6 +2443,7 @@ msgid "Partially correct ({progress} point)"
 msgid_plural "Partially correct ({progress} points)"
 msgstr[0] "Частично верно ({progress} балл)"
 msgstr[1] "Частично верно ({progress} балла)"
+msgstr[2] ""
 
 #: common/lib/xmodule/xmodule/capa_module.py
 msgid "Partially Correct"
@@ -2457,6 +2484,7 @@ msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
 msgstr[0] "{num_hour} час"
 msgstr[1] "{num_hour} часа"
+msgstr[2] ""
 
 #: common/lib/xmodule/xmodule/capa_module.py
 #, python-brace-format
@@ -2464,6 +2492,7 @@ msgid "{num_minute} minute"
 msgid_plural "{num_minute} minutes"
 msgstr[0] "{num_minute} минута"
 msgstr[1] "{num_minute} минуты"
+msgstr[2] ""
 
 #: common/lib/xmodule/xmodule/capa_module.py
 #, python-brace-format
@@ -2471,6 +2500,7 @@ msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
 msgstr[0] "{num_second} секунда"
 msgstr[1] "{num_second} секунды"
+msgstr[2] ""
 
 #: common/lib/xmodule/xmodule/capa_module.py
 msgid "Problem needs to be reset prior to save."
@@ -3780,6 +3810,7 @@ msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
 msgstr[0] "Указанная библиотека настроена возвращать {count} задание, "
 msgstr[1] "Указанная библиотека настроена возвращать {count} задания, "
+msgstr[2] ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 #, python-brace-format
@@ -3787,6 +3818,7 @@ msgid "but there is only {actual} matching problem."
 msgid_plural "but there are only {actual} matching problems."
 msgstr[0] "но в ней всего {actual} подходящее задание."
 msgstr[1] "но в ней всего {actual} подходящих задания."
+msgstr[2] ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Edit the library configuration."
@@ -4648,6 +4680,7 @@ msgid_plural ""
 "There are no transcript files associated with the {lang} languages."
 msgstr[0] "Нет субтитров для языка {lang}."
 msgstr[1] "Нет субтитров для языков {lang}."
+msgstr[2] ""
 
 #: common/lib/xmodule/xmodule/video_module/video_module.py
 msgid ""
@@ -5572,17 +5605,14 @@ msgstr "Проходите бесплатные онлайн на edX.org"
 #. Translators: 'edX' and 'Open edX' are trademarks of 'edX Inc.'.
 #. Please do not translate any of these trademarks and company names.
 #: lms/djangoapps/branding/api.py
-#, fuzzy, python-brace-format
-#| msgid ""
-#| "\\u00A9 {org_name}.  All rights reserved except where noted.  edX, Open "
-#| "edX and their respective logos are registered trademarks of edX Inc."
+#, python-brace-format
 msgid ""
 "© {org_name}.  All rights reserved except where noted.  edX, Open edX and "
 "their respective logos are registered trademarks of edX Inc."
 msgstr ""
-"\\u00A9 {org_name}.  Все права защищены, кроме случаев, когда это указано. "
-"edX, Open edX и их соответствующие логотипы являются зарегистрированными "
-"торговыми марками edX Inc."
+"© {org_name}.  Все права защищены, кроме случаев, когда это указано. edX, "
+"Open edX и их соответствующие логотипы являются зарегистрированными торговыми "
+"марками edX Inc."
 
 #. Translators: 'Open edX' is a trademark, please keep this untranslated.
 #. See http://openedx.org for more information.
@@ -5889,10 +5919,9 @@ msgid "The course {course_key} does not exist"
 msgstr "Курса {course_key} не существует"
 
 #: lms/djangoapps/certificates/views/support.py
-#, fuzzy, python-brace-format
-#| msgid "User {username} is not enrolled in the course {course_key}"
+#, python-brace-format
 msgid "User {user_id} is not enrolled in the course {course_key}"
-msgstr "Пользователь {username} не зарегистрирован на курс {course_key}"
+msgstr "Пользователь {user_id} не зарегистрирован на курс {course_key}"
 
 #: lms/djangoapps/certificates/views/support.py
 msgid "An unexpected error occurred while regenerating certificates."
@@ -6226,15 +6255,6 @@ msgid "Not sure yet"
 msgstr "Ещё не уверен"
 
 #: lms/djangoapps/course_home_api/admin.py
-#, fuzzy
-#| msgid ""
-#| "These define the context to disable lms-controlled discounts on. If no "
-#| "values are set, then the configuration applies globally. If a single value "
-#| "is set, then the configuration applies to all courses within that context. "
-#| "At most one value can be set at a time.<br>If multiple contexts apply to a "
-#| "course (for example, if configuration is specified for the course "
-#| "specifically, and for the org that the course is in, then the more "
-#| "specific context overrides the more general context."
 msgid ""
 "These define the context to disable the frontend-app-learning progress page."
 "If no values are set, then the configuration applies globally. If a single "
@@ -6244,13 +6264,13 @@ msgid ""
 "specifically, and for the org that the course is in, then the more specific "
 "context overrides the more general context."
 msgstr ""
-"Они определяют контекст для отключения lms-контролируемых скидок. Если "
-"значения не заданы, то конфигурация применяется глобально. Если задано одно "
-"значение, то конфигурация применяется ко всем курсам в данном контексте. "
-"Одновременно может быть задано не более одного значения.<br>Если к курсу "
-"применяется несколько контекстов (например, если конфигурация задана для "
-"конкретного курса и для орг, в котором находится курс, то более конкретный "
-"контекст отменяет более общий."
+"Это определяет значение контекста для отключения страницы прогресса обучения "
+"frontend-app-learning.Если значения не заданы, то конфигурация применяется "
+"глобально. Если задано одно значение, то конфигурация применяется ко всем "
+"курсам в этом контексте. Одновременно может быть задано не более одного "
+"значения.<br>Если к курсу применяется несколько контекстов (например, если "
+"конфигурация задана для конкретного курса и для org, в котором находится "
+"курс, то более конкретный контекст отменяет более общий."
 
 #: lms/djangoapps/course_home_api/admin.py openedx/features/discounts/admin.py
 msgid ""
@@ -6276,6 +6296,7 @@ msgid "({number} Question)"
 msgid_plural "({number} Questions)"
 msgstr[0] "({number} вопроса)"
 msgstr[1] "({number} вопросов)"
+msgstr[2] ""
 
 #: lms/djangoapps/course_home_api/outline/views.py
 msgid ""
@@ -6315,6 +6336,8 @@ msgstr "Вики"
 msgid ""
 "Enable learners to access, and collaborate on course-related information."
 msgstr ""
+"Предоставление учащимся доступа и совместной работы над информацией, "
+"связанной с курсом."
 
 #. Translators: this string includes wiki markup.  Leave the ** and the _
 #. alone.
@@ -6424,10 +6447,8 @@ msgid "Enrollment Date"
 msgstr "Дата записи на курс"
 
 #: lms/djangoapps/courseware/date_summary.py
-#, fuzzy
-#| msgid "Course Starts"
 msgid "Course starts"
-msgstr "Курс начнётся"
+msgstr "Курс начинается"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Don't forget to add a calendar reminder!"
@@ -6444,31 +6465,26 @@ msgid "Course starts in {time_remaining_string} at {course_start_time}."
 msgstr "Курс начнётся через {time_remaining_string} — {course_start_time}."
 
 #: lms/djangoapps/courseware/date_summary.py
-#, fuzzy
-#| msgid "Course End"
 msgid "Course ends"
-msgstr "Окончание курса"
+msgstr "Курс заканчивается"
 
 #: lms/djangoapps/courseware/date_summary.py
-#, fuzzy
-#| msgid ""
-#| "This course is archived, which means you can review course content but it "
-#| "is no longer active."
 msgid ""
 "After this date, the course will be archived, which means you can review the "
 "course content but can no longer participate in graded assignments or work "
 "towards earning a certificate."
 msgstr ""
-"Курс завершён и находится в архиве, но у вас останется доступ к материалам "
-"курса."
+"После этой даты курс будет архивирован, что означает, что вы можете "
+"просматривать его содержание, но больше не сможете участвовать в оцениваемых "
+"заданиях или работать над получением сертификата."
 
 #: lms/djangoapps/courseware/date_summary.py
-#, fuzzy
-#| msgid "After this date, course content will be archived."
 msgid ""
 "After the course ends, the course content will be archived and no longer "
 "active."
-msgstr "После этой даты содержание курса будет перенесено в архив."
+msgstr ""
+"После окончания курса его содержание будет заархивировано и перестанет быть "
+"активным."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
@@ -6680,6 +6696,7 @@ msgstr "Прогресс"
 #: lms/djangoapps/courseware/plugins.py
 msgid "Keep learners engaged and on track throughout the course."
 msgstr ""
+"Увлекайте учащихся и следите за ходом занятий на протяжении всего курса."
 
 #. Translators: 'Textbooks' refers to the tab in the course that leads to the
 #. course' textbooks
@@ -6691,27 +6708,27 @@ msgstr "Учебники"
 #: lms/djangoapps/courseware/plugins.py
 msgid "Create and manage a library of course readings, textbooks, and chapters."
 msgstr ""
+"Создавайте и управляйте библиотекой материалов для чтения, учебников и глав "
+"курса."
 
 #: lms/djangoapps/courseware/plugins.py
-#, fuzzy
-#| msgid "Calculate"
 msgid "Calculator"
-msgstr "Вычислить"
+msgstr "Калькулятор"
 
 #: lms/djangoapps/courseware/plugins.py
 msgid "Provide an in-course calculator for simple and complex calculations."
-msgstr ""
+msgstr "Предоставить встроенный калькулятор для простых и сложных расчетов."
 
 #: lms/djangoapps/courseware/plugins.py
-#, fuzzy
-#| msgid "Proctoring Provider"
 msgid "Proctoring"
-msgstr "Поставщик прокторинга"
+msgstr "Прокторинг"
 
 #: lms/djangoapps/courseware/plugins.py
 msgid ""
 "Maintain exam integrity by enabling a proctoring solution for your course"
 msgstr ""
+"Поддерживайте целостность экзамена, используя решение по прокторингу для "
+"вашего курса"
 
 #: lms/djangoapps/courseware/tabs.py lms/templates/courseware/syllabus.html
 msgid "Syllabus"
@@ -7046,7 +7063,7 @@ msgstr "Заметки"
 
 #: lms/djangoapps/edxnotes/plugins.py
 msgid "Allow learners to highlight passages and make notes right in the course."
-msgstr ""
+msgstr "Позволяет учащимся выделять отрывки и делать заметки прямо в курсе."
 
 #: lms/djangoapps/grades/rest_api/v1/gradebook_views.py
 msgid ""
@@ -7156,42 +7173,50 @@ msgid ""
 "that contains other blocks, (such as the course, section, subsection, or unit "
 "blocks) then all blocks under that block will be included in the report."
 msgstr ""
+"Расположение ключа использования для раздела или проблемы. Если "
+"местоположение является блоком, который содержит другие блоки (например, "
+"курс, раздел, подраздел или блоки модулей), то все блоки в этом блоке будут "
+"включены в отчет."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "A list of usage keys for the blocks to include in the report. "
-msgstr ""
+msgstr "Список ключей использования блоков для включения в отчет. "
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "A list of problem/block types to generate the report for. This field can be "
 "omitted if the report should include details of allblock types. "
 msgstr ""
+"Список типов проблем/блоков для создания отчета. Это поле можно опустить, "
+"если отчет должен содержать сведения обо всех типах блоков."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "User-friendly text describing current status of report generation."
-msgstr ""
+msgstr "Удобный текст, описывающий текущий статус создания отчета."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "A unique id for the report generation task. It can be used to query the "
 "latest report generation status."
 msgstr ""
+"Уникальный идентификатор задачи создания отчета. Его можно использовать для "
+"запроса последнего статуса генерации отчета."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "The provided parameters were invalid. Make sure you've provided at least one "
 "valid usage key for `problem_locations`."
 msgstr ""
+"Предоставленные параметры недействительны. Убедитесь, что вы предоставили "
+"хотя бы один правильный ключ использования для `problem_locations`."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The requesting user is not authenticated."
-msgstr ""
+msgstr "Запрашивающий пользователь не аутентифицирован."
 
 #: lms/djangoapps/instructor/views/api.py
-#, fuzzy
-#| msgid "The reason this user wants to access the API."
 msgid "The requesting user lacks access to the course."
-msgstr "Основание для доступа к API данного пользователя."
+msgstr "Запрашивающий пользователь не имеет доступа к курсу."
 
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor_task/api_helper.py
@@ -7819,6 +7844,7 @@ msgid "{num_emails} sent"
 msgid_plural "{num_emails} sent"
 msgstr[0] "{num_emails} отправлено"
 msgstr[1] "{num_emails} отправлено"
+msgstr[2] ""
 
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py
 #, python-brace-format
@@ -7826,6 +7852,7 @@ msgid "{num_emails} failed"
 msgid_plural "{num_emails} failed"
 msgstr[0] "{num_emails} ошибка"
 msgstr[1] "{num_emails} ошибки"
+msgstr[2] ""
 
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py
 msgid "Complete"
@@ -10147,7 +10174,7 @@ msgstr "Идентификатор курса"
 
 #: openedx/core/djangoapps/content_libraries/models.py
 msgid "ID of the imported course."
-msgstr "Индентификатор импотированного курса"
+msgstr "Индентификатор импотированного курса."
 
 #: openedx/core/djangoapps/content_libraries/views.py
 msgid "We could not find a user with that email address."
@@ -12288,6 +12315,7 @@ msgid "Try again ({attempts} attempt remaining)"
 msgid_plural "Try again ({attempts} attempts remaining)"
 msgstr[0] "Повторите попытку (осталось попыток: {attempts})"
 msgstr[1] "Повторите попытку (осталось попыток: {attempts})"
+msgstr[2] ""
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py
 #, python-brace-format
@@ -13496,6 +13524,7 @@ msgid "%s discussion started"
 msgid_plural "%s discussions started"
 msgstr[0] "Открыта %s тема для обсуждения"
 msgstr[1] "Открыто %s темы для обсуждения"
+msgstr[2] ""
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
 #: lms/templates/discussion/_user_profile.html
@@ -13504,6 +13533,7 @@ msgid "%s comment"
 msgid_plural "%s comments"
 msgstr[0] "%s комментарий"
 msgstr[1] "%s комментария"
+msgstr[2] ""
 
 #: lms/djangoapps/discussion/templates/discussion/maintenance_fragment.html
 msgid "Discussion unavailable"
@@ -13956,6 +13986,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Показаны все материалы, которые можно добавить в {display_name}. Каждому "
 "студенту будет случайным образом задано {max_count} элемента из этого списка."
+msgstr[2] ""
 
 #. Translators:  "External resource" means that this learning module is hosted
 #. on a platform external to the edX LMS
@@ -14131,6 +14162,7 @@ msgid "You have used {num_used} of {num_total} attempt"
 msgid_plural "You have used {num_used} of {num_total} attempts"
 msgstr[0] "Вы использовали {num_used} из {num_total} попытки"
 msgstr[1] "Вы использовали {num_used} из {num_total} попыток"
+msgstr[2] ""
 
 #: lms/templates/problem.html
 msgid ""
@@ -17253,6 +17285,7 @@ msgid "You only have {days} day left to verify for this course."
 msgid_plural "You only have {days} days left to verify for this course."
 msgstr[0] "Остался {days} день для подтверждения вашей личности на этом курсе."
 msgstr[1] "Осталось {days} дня для подтверждения вашей личности на этом курсе."
+msgstr[2] ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Almost there!"
@@ -18525,7 +18558,7 @@ msgstr "Исполнительное образование"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Master's"
-msgstr "магистр"
+msgstr "Магистр"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Basic Course Information"
