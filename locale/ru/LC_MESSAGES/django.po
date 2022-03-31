@@ -603,7 +603,7 @@ msgid ""
 msgstr ""
 "Ожидается, что данные будут предоставлены в формате csv-файла, первая строка "
 "которого будет заголовком, а столбцы будут следующими: user_id, username, "
-"email, course_id, is_verified, verification_date."
+"email, course_id, is_verified, verification_date"
 
 #: common/djangoapps/student/models.py
 msgid ""
@@ -651,7 +651,7 @@ msgid ""
 msgstr ""
 "Ожидается, что данные будут предоставлены в формате csv файла, первая строка "
 "которого будет заголовком, а столбцы будут следующими: имя пользователя, "
-"текущая_почта, желаемая_почта."
+"текущая_почта, желаемая_почта"
 
 #: common/djangoapps/student/models.py
 msgid "Add a reason"
@@ -868,7 +868,7 @@ msgid ""
 "reference users in that Organization"
 msgstr ""
 "необязательный. Если этот провайдер является организацией, этот атрибут может "
-"быть использован для ссылок на пользователей в этой организации."
+"быть использован для ссылок на пользователей в этой организации"
 
 #: common/djangoapps/third_party_auth/models.py
 msgid "The Site that this provider configuration belongs to."
@@ -1374,9 +1374,9 @@ msgstr "Неверный пароль."
 #, python-format
 msgid "at least %(min_length)d character"
 msgid_plural "at least %(min_length)d characters"
-msgstr[0] "не менее %(min_length)го символов"
-msgstr[1] "не менее %(min_length)х символов"
-msgstr[2] "не менее %(min_length)и символов"
+msgstr[0] "не менее %(min_length)d символов"
+msgstr[1] "не менее %(min_length)d символов"
+msgstr[2] "не менее %(min_length)d символов"
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1399,17 +1399,17 @@ msgstr[2] ""
 msgid "Your password must contain no more than %(max_length)d character."
 msgid_plural ""
 "Your password must contain no more than %(max_length)d characters."
-msgstr[0] "Ваш пароль должен содержать не более %(max_length)й символов."
-msgstr[1] "Ваш пароль должен содержать не более %(max_length)х символов."
-msgstr[2] "Ваш пароль должен содержать не более %(max_length)и символов."
+msgstr[0] "Ваш пароль должен содержать не более %(max_length)d символов."
+msgstr[1] "Ваш пароль должен содержать не более %(max_length)d символов."
+msgstr[2] "Ваш пароль должен содержать не более %(max_length)d символов."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
 msgid "This password must contain at least %(min_alphabetic)d letter."
 msgid_plural "This password must contain at least %(min_alphabetic)d letters."
-msgstr[0] "Этот пароль должен содержать не менее %(min_alphabetic)й буквы."
-msgstr[1] "Этот пароль должен содержать не менее %(min_alphabetic)х букв."
-msgstr[2] "Этот пароль должен содержать не менее %(min_alphabetic)и букв."
+msgstr[0] "Этот пароль должен содержать не менее %(min_alphabetic)d буквы."
+msgstr[1] "Этот пароль должен содержать не менее %(min_alphabetic)d букв."
+msgstr[2] "Этот пароль должен содержать не менее %(min_alphabetic)d букв."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1539,9 +1539,9 @@ msgstr[2] ""
 #, python-format
 msgid "This password must contain at least %(min_symbol)d symbol."
 msgid_plural "This password must contain at least %(min_symbol)d symbols."
-msgstr[0] "Этот пароль должен содержать не менее %(min_symbol)го спецсимвола."
-msgstr[1] "Этот пароль должен содержать не менее %(min_symbol)х спецсимволов."
-msgstr[2] "Этот пароль должен содержать не менее %(min_symbol)и спецсимволов."
+msgstr[0] "Этот пароль должен содержать не менее %(min_symbol)d спецсимвола."
+msgstr[1] "Этот пароль должен содержать не менее %(min_symbol)d спецсимволов."
+msgstr[2] "Этот пароль должен содержать не менее %(min_symbol)d спецсимволов."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -13524,7 +13524,7 @@ msgid "%s discussion started"
 msgid_plural "%s discussions started"
 msgstr[0] "Открыта %s тема для обсуждения"
 msgstr[1] "Открыто %s темы для обсуждения"
-msgstr[2] ""
+msgstr[2] "Открыто %s темы для обсуждения"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
 #: lms/templates/discussion/_user_profile.html
@@ -13533,7 +13533,7 @@ msgid "%s comment"
 msgid_plural "%s comments"
 msgstr[0] "%s комментарий"
 msgstr[1] "%s комментария"
-msgstr[2] ""
+msgstr[2] "%s комментария"
 
 #: lms/djangoapps/discussion/templates/discussion/maintenance_fragment.html
 msgid "Discussion unavailable"
