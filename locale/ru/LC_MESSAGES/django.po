@@ -330,7 +330,7 @@ msgstr ""
 #, python-format
 msgid "%(count)d student account was unlocked."
 msgid_plural "%(count)d student accounts were unlocked."
-msgstr[0] "%(count)d счет студента был разблокирован."
+msgstr[0] "%(count)d студенческая учетная запись была разблокирована."
 msgstr[1] "%(count)d счета студента были разблокированы."
 msgstr[2] ""
 
@@ -1333,7 +1333,7 @@ msgstr "декабря"
 msgid "The file must end with the extension '{file_types}'."
 msgid_plural ""
 "The file must end with one of the following extensions: '{file_types}'."
-msgstr[0] "Файл должен иметь расширение '{file_types}'."
+msgstr[0] "Файл должен иметь расширение '{file_types}'. "
 msgstr[1] "Файл должен иметь одно из следующих расширений: '{file_types}'."
 msgstr[2] ""
 
@@ -1374,9 +1374,9 @@ msgstr "Неверный пароль."
 #, python-format
 msgid "at least %(min_length)d character"
 msgid_plural "at least %(min_length)d characters"
-msgstr[0] "не менее %(min_length)d символов"
-msgstr[1] "не менее %(min_length)d символов"
-msgstr[2] ""
+msgstr[0] "не менее %(min_length)го символов"
+msgstr[1] "не менее %(min_length)х символов"
+msgstr[2] "не менее %(min_length)и символов"
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1399,17 +1399,17 @@ msgstr[2] ""
 msgid "Your password must contain no more than %(max_length)d character."
 msgid_plural ""
 "Your password must contain no more than %(max_length)d characters."
-msgstr[0] "Ваш пароль должен содержать не более %(max_length)d символов."
-msgstr[1] "Ваш пароль должен содержать не более %(max_length)d символов."
-msgstr[2] ""
+msgstr[0] "Ваш пароль должен содержать не более %(max_length)й символов."
+msgstr[1] "Ваш пароль должен содержать не более %(max_length)х символов."
+msgstr[2] "Ваш пароль должен содержать не более %(max_length)и символов."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
 msgid "This password must contain at least %(min_alphabetic)d letter."
 msgid_plural "This password must contain at least %(min_alphabetic)d letters."
-msgstr[0] "Этот пароль должен содержать не менее %(min_alphabetic)d букв."
-msgstr[1] "Этот пароль должен содержать не менее %(min_alphabetic)d букв."
-msgstr[2] ""
+msgstr[0] "Этот пароль должен содержать не менее %(min_alphabetic)й буквы."
+msgstr[1] "Этот пароль должен содержать не менее %(min_alphabetic)х букв."
+msgstr[2] "Этот пароль должен содержать не менее %(min_alphabetic)и букв."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
@@ -1539,9 +1539,9 @@ msgstr[2] ""
 #, python-format
 msgid "This password must contain at least %(min_symbol)d symbol."
 msgid_plural "This password must contain at least %(min_symbol)d symbols."
-msgstr[0] "Этот пароль должен содержать не менее %(min_symbol)d спецсимвола."
-msgstr[1] "Этот пароль должен содержать не менее %(min_symbol)d спецсимволов."
-msgstr[2] ""
+msgstr[0] "Этот пароль должен содержать не менее %(min_symbol)го спецсимвола."
+msgstr[1] "Этот пароль должен содержать не менее %(min_symbol)х спецсимволов."
+msgstr[2] "Этот пароль должен содержать не менее %(min_symbol)и спецсимволов."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
