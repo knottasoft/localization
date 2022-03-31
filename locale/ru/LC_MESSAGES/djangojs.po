@@ -7312,7 +7312,7 @@ msgstr "обсуждение опубликовано %(time_ago)s пользо�
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "question posted %(time_ago)s by %(author)s"
-msgstr "вопрос, опубликованный %(time_ago) от %(автор)"
+msgstr "вопрос, опубликованный %(time_ago)s от %(author)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Pinned"
@@ -7329,12 +7329,12 @@ msgstr "Закрытый"
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "Related to: %(courseware_title_linked)s"
-msgstr "Связанные с: %(courseware_title_linked)"
+msgstr "Связанные с: %(courseware_title_linked)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post is visible only to %(group_name)s."
-msgstr "Это сообщение могут видеть только %(group_name)."
+msgstr "Это сообщение могут видеть только %(group_name)s."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This post is visible to everyone."
@@ -7362,8 +7362,8 @@ msgstr "Обновить пост"
 #, python-format
 msgid "Show Comment (%(num_comments)s)"
 msgid_plural "Show Comments (%(num_comments)s)"
-msgstr[0] "Показать комментарий (%(num_comments))"
-msgstr[1] "Показать комментарии (%(num_comments))"
+msgstr[0] "Показать комментарий (%(num_comments)s)"
+msgstr[1] "Показать комментарии (%(num_comments)s)"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Add a comment"
@@ -7372,22 +7372,22 @@ msgstr "Добавить комментарий"
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s by %(user)s"
-msgstr "помечено как ответ %(time_ago) пользователем %(user)"
+msgstr "помечено как ответ %(time_ago)s пользователем %(user)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "marked as answer %(time_ago)s"
-msgstr "помечено как ответ %(time_ago)"
+msgstr "помечено как ответ %(time_ago)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s by %(user)s"
-msgstr "одобрено %(time_ago) пользователем %(user)"
+msgstr "одобрено %(time_ago)s пользователем %(user)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "endorsed %(time_ago)s"
-msgstr "одобрено %(time_ago)"
+msgstr "одобрено %(time_ago)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing response"
@@ -7400,7 +7400,7 @@ msgstr "Обновление ответа"
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "posted %(time_ago)s by %(author)s"
-msgstr "опубликовано %(time_ago)s пользователем %(author)"
+msgstr "опубликовано %(time_ago)s пользователем %(author)s"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Editing comment"
@@ -7487,7 +7487,7 @@ msgstr "Ошибка при отправке вашего сообщения."
 #: common/static/common/templates/discussion/templates.underscore
 #, python-format
 msgid "This post will be visible only to %(group_name)s."
-msgstr "Это сообщение будет видно только %(имя_группы)."
+msgstr "Это сообщение будет видно только %(group_name)s."
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "This post will be visible to everyone."
