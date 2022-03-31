@@ -331,8 +331,8 @@ msgstr ""
 msgid "%(count)d student account was unlocked."
 msgid_plural "%(count)d student accounts were unlocked."
 msgstr[0] "%(count)d студенческая учетная запись была разблокирована."
-msgstr[1] "%(count)d счета студента были разблокированы."
-msgstr[2] ""
+msgstr[1] "%(count)d студенческих учетных записей были разблокированы."
+msgstr[2] "%(count)d студенческих учетных записей были разблокированы"
 
 #: common/djangoapps/student/admin.py
 #, python-brace-format
