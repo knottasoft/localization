@@ -12674,7 +12674,7 @@ msgstr "Пустой"
 
 #: cms/djangoapps/contentstore/views/component.py
 msgid "Blank Open Response Assessment"
-msgstr "Пустая оценка открытого ответа"
+msgstr "Пустой шаблон открытого ответа"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Course has been successfully reindexed."
