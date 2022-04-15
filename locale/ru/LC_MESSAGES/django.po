@@ -1913,7 +1913,7 @@ msgstr "или"
 
 #: common/lib/capa/capa/responsetypes.py cms/templates/widgets/problem-edit.html
 msgid "Text Input"
-msgstr "Текстовый ввод"
+msgstr "Короткий текстовый ответ"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "error"
